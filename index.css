@@ -1,0 +1,117 @@
+
+#power {
+    font-size: 30px;
+    width: 15px;
+    background-color: white;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border: none;
+}
+
+
+#drum-machine {
+    width: 100%;
+    background-color: #0e1111;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#display {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+#padsContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.drum-pad {
+    flex-basis: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+.instrument {
+    font-size: 25px;
+}
+
+#controls {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+#controls button {
+    margin: auto;
+    width: 30%;
+}
+
+.form-range {
+    margin: auto;
+    width: 100%;
+}
+
+.form-label {
+    margin-left: 55px;
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    #display {
+        width: 400px;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    
+    .drum-pad {
+       font-size: 25px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 525px) {
+    #display {
+        width: 300px;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+
+    .form-label {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #controls button {
+        width: 100%;
+    }
+
+    #padsContainer {
+        transform: scale(0.9);
+    }
+
+  }
